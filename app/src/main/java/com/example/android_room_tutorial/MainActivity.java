@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
     private NoteViewModel noteViewModel;
 
+
+    //*****************onCreate BEGIN************************
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -113,6 +115,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    //*****************onCreate END************************
+
+
+
+
+
 
 
     //*****************Next Activity te giye Result anar jonno onActivityResult er Code****************************************
